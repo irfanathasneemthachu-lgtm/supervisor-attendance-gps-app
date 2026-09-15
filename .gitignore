@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Client
+client/dist
+client/node_modules
+
+# Server
+server/node_modules
